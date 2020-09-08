@@ -1,0 +1,4 @@
+INSERT INTO "CUSTOMER" (ID, NAME, EMAIL, SHOP_ID, CREATED_DATE, END_DATE) VALUES(1, 'somename','111@gmail.com', 234234, TO_DATE('2017-02-11', 'yyyy-mm-dd'), TO_DATE('2019-02-11', 'yyyy-mm-dd'));
+INSERT INTO "CUSTOMER" (ID, NAME, EMAIL, SHOP_ID, CREATED_DATE, END_DATE) VALUES(2, 'someothername','222@web.com', 3453423, TO_DATE('2017-02-11', 'yyyy-mm-dd'), TO_DATE('2019-02-11', 'yyyy-mm-dd'));
+INSERT INTO "CUSTOMER" (ID, NAME, EMAIL, SHOP_ID, CREATED_DATE, END_DATE) VALUES(3, 'someothername','222@web.com', 3453423, TO_DATE('2017-02-11', 'yyyy-mm-dd'), TO_DATE('2019-02-11', 'yyyy-mm-dd'));
+INSERT INTO "CUSTOMER" (ID, NAME, EMAIL, SHOP_ID, CREATED_DATE, END_DATE) VALUES(4, 'test','333@abc.com', 86776, TO_DATE('2017-02-11', 'yyyy-mm-dd'), TO_DATE('2019-02-11', 'yyyy-mm-dd'));

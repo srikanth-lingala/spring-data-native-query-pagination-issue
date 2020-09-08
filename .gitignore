@@ -1,0 +1,11 @@
+*.iml
+*.ipr
+*.iws
+*.ids
+.DS_Store
+.idea
+.asciidoctor
+.classpath
+.settings
+.project
+target
