@@ -1,4 +1,4 @@
-package net.lingala.model;
+package net.lingala.entity;
 
 import javax.persistence.*;
 import java.util.Date;

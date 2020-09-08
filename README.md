@@ -18,7 +18,7 @@ Screenshot with list of Objects
 This issue seems to be happening only with Oracle database. When I use H2, it seems to work fine, i.e, I get list of 
 BigDecimals always no matter the page number.
 
-### Steps to reproduce issue:
+### Steps to reproduce the issue:
 
 Skip steps 1 and 2, if you have access to an instance of oracle available. In this case, make sure to change database 
 configuration in application.properties

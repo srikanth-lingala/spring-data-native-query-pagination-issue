@@ -1,6 +1,6 @@
-package net.lingala.dao;
+package net.lingala.repository;
 
-import net.lingala.model.Customer;
+import net.lingala.entity.Customer;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
 import org.springframework.data.jpa.repository.JpaRepository;

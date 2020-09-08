@@ -1,6 +1,6 @@
 package net.lingala;
 
-import net.lingala.dao.CustomerRepository;
+import net.lingala.repository.CustomerRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
