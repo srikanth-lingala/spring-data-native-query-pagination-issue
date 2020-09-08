@@ -27,6 +27,14 @@ configuration in application.properties
 2. Start an instance of Oracle locally: `docker run -d --shm-size=2g -p 1521:1521 -p 8080:8080 orangehrm/oracle-xe-11g`
 3. Run Application.java
 
+You will see this exception in the console output:
+
+> Caused by: java.lang.ClassCastException: class [Ljava.lang.Object; cannot be cast to class java.math.BigDecimal ([Ljava.lang.Object; and java.math.BigDecimal are in module java.base of loader 'bootstrap')
+  	at java.base/java.util.stream.ReferencePipeline$5$1.accept(ReferencePipeline.java:229)
+
+This happens because of the conversion of BigDecimal to long in Application.java. This shows that the result type was 
+not of type List of BigDecimals as was the case on the first page.
+
 [1]: https://stackoverflow.com/q/63738889/2736153
 [proper-results-screenshot]: https://i.stack.imgur.com/5VS5i.png
 [issue-screenshot]: https://i.stack.imgur.com/MoQrZ.png
